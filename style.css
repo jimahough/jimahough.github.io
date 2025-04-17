@@ -71,10 +71,14 @@ nav a:hover {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color:#1FC742;
 }
 
 #aboutButton:hover {
     color: #ffffff;
+    border-color: #ffffff;
 }
 
 /*-------Full-screen Sections-------*/
@@ -90,11 +94,11 @@ section {
     transition: all 0.5s ease-in-out;
 }
 
-section h1, h2 {
+section h1, h2, .serv-head {
     color: #1FC742;
 }
 
-section h2 {
+section h2, .serv-head {
     font-size: 1.7rem;
     font-weight: bold;
 }
@@ -116,12 +120,32 @@ section h2 {
     margin-left: 1rem;
     text-align: left;
 }
+/*---Services---*/
+#servies_cont {
+    display: block;
+    width:200px;
+    margin:0 auto;
+    
+}
+
+.servies li {
+    list-style: none;
+    text-align: left;
+    font-size: 1.5rem;
+    margin-left: 4rem;
+}
+
+li.serv-head {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
 
 /*---About and Contact---*/
 p {
     max-width: 1100px;
     min-width: 100px;
 }
+
 div .about {
     margin:1.3rem auto;
     display: block;
@@ -134,7 +158,7 @@ div .about {
     font-size: 1.5rem;
     margin-bottom: .2rem;
     margin-left: 8rem;
-    display:block;
+    display: block;
     position: relative;
 }
 
@@ -147,10 +171,11 @@ div .about {
     position: absolute;
     left:-2.5rem;
 }
+
 .lists {
     display:inline-block;
     margin: 1.5rem auto;
-    min-width: 320px;
+    min-width: 300px;
 }
 
 /*-------Smooth scrolling-------*/
