@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #1FC742;
+}
+tomorrow-thin {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+
+a:hover {
+    color: #ffffff;
+}
+
+body, html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/*------Navigation Bar------*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #010101;
+    color: #56D4D2;
+    padding: 15px 30px;
+    text-align: center;
+    z-index: 1000;
+}
+
+nav a {
+    color: #1FC742;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+#aboutButton {
+    background-color: #010101;
+    border: none;
+    color: #1FC742;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#aboutButton:hover {
+    color: #ffffff;
+}
+
+/*-------Full-screen Sections-------*/
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 0 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+section h1, h2 {
+    color: #1FC742;
+}
+
+section h2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+/*------Section Styles-------*/
+#section1, #section2, #section3, #section4, #section5 {
+    background-color: #595959;
+}
+
+/*------Portfolio------*/
+#portfolio img {
+    display: inline-block;
+    width: 12rem;
+    height: 16rem;
+}
+
+#portfolio p {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    text-align: left;
+}
+
+#section5 th {
+    list-style: none;
+    font-size: 1.5rem;
+    width: 200px;
+}
+
+/*---About---*/
+p {
+    max-width: 1100px;
+}
+div .about {
+    margin:1.3rem auto;
+    display: block;
+    width:39rem;
+}
+.about li {
+    list-style: none;
+    margin-left: 4rem;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+/*---Contact section---*/
+.contact li {
+    list-style: none;
+    margin-left: 4rem;
+    text-align: left;
+    font-size: 1.5rem;
+}
+.icon {
+    width:25px;
+    height: 25px;
+}
+/*-------Smooth scrolling-------*/
+html {
+    scroll-behavior: smooth;
+}

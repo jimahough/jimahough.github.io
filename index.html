@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WEBSITE TITLE HERE</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#section1" tabindex="1">Home</a>
+        <a href="#section2" tabindex="2">Portfolio</a>
+        <a href="#section3" tabindex="3">Services</a>
+        <a href="#section4" tabindex="4">About</a>
+        <a href="#section5" tabindex="5">Contact</a>
+    </nav>
+
+    <!-- Landing Page -->
+    <section id="section1">
+        <div>
+
+            <h1 tabindex="7">James Hough</h1>
+
+            <h2 tabindex="8">Professional programmer</h2>
+
+            <p  tabindex="9"> Scroll down to see what I can do</p>
+
+            <button><a id="aboutButton" href="#section5"  tabindex="6">Contact</a></button>
+
+        </div>
+
+        <div class="scroll-indicator" onclick="scrollToSection(2)"></div>
+        
+    </section>
+    
+    <!-- Portfolio -->
+
+    <section id="section2">
+
+        <div>
+
+            <h1  tabindex="10">Portfolio</h1>
+
+            <table id="portfolio">
+
+                <tr>
+                    <th><a href="calc/calculator.html"><img src="images/calc.png" /></a></th>
+                    <th class="desciption"><p><a href="calc/calculator.html"  tabindex="11">Calculator</a></p>
+                        <p>It works, try me : &#10089;</p>
+                    </th>
+                </tr>
+
+            </table>
+
+        </div>
+
+        <div class="scroll-indicator" onclick="scrollToSection(3)"></div>
+
+    </section>
+
+    <!-- My services -->
+    <section id="section3">
+        <div>
+
+            <h1 tabindex="21">My Services</h1>
+
+            <p tabindex="22">Languages: javascript, java, C#</p>
+
+            <p tabindex="23">Applications: Next.js, Netbeans </p>
+
+        </div>
+
+        <div class="scroll-indicator" onclick="scrollToSection(4)"></div>
+
+    </section>
+
+    <!-- About -->
+    <section id="section4">
+        <div>
+
+            <h1 tabindex="24">About</h1>
+
+            <p tabindex="25">Hi, I’m James. I recently graduated from college 
+                and am excited to start my coding career helping people solve 
+                problems. I focus on developing projects that are stylish and 
+                functional. Previously I worked in customer service jobs which 
+                has given me valuable skills in listening, problem-solving and 
+                teamwork that I am able to bring into my work coding. I look 
+                forward to seeing what we can create together!</p>
+
+            <div class="about">
+
+                <ul>
+                    <li><img src="images/grad.svg" class="icon" /> AA, Phoenix College, 2023, Focus on Object-oriented programming</li>
+                    <li><img src="images/call.svg" class="icon" /> 15 years of customer service experience</li>
+                    <li><img src="images/map.svg" class="icon" /> Located in Phoenix, AZ</li>
+                    <li><img src="images/face.svg" class="icon" /> Currently available for hire</li>
+                </ul>
+            </div>
+
+            <p><a tabindex="26" href="#" download>Download my resume</a></p>
+
+        </div>
+        <div class="scroll-indicator" onclick="scrollToSection(5)"></div>
+    </section>
+
+    <!-- Contact -->
+    <section id="section5">
+
+        <div>
+
+            <h1  tabindex="27">Contact Me</h1>
+
+            <ul class="contact">
+                <li tabindex="28"><img  class="icon" src="images/email.svg" /> Email: <a href="mailto:hough.jamesarthur@gmail.com"> hough.jamesarthur@gmail.com</a></li>
+                <li tabindex="29"><img class="icon" src="images/linkedin.svg" /> Linkedin: <a href="https://linkedin.com/in/james-hough-a20b3032"> linkedin.com&#x2f;in&#x2f;james-hough-a20b3032</a></li>
+                <li tabindex="30"><img class="icon" src="images/gethub.svg" /> GetHub: <a href="https://github.com/jimahough">github.com&#x2f;jimahough</a></li>
+            </ul>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
